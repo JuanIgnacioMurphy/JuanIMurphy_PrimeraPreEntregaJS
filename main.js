@@ -1,4 +1,8 @@
-let check = prompt("¡Hola! ¿Querés que te asesore para que consigas un gran trabajo?")
+alert("¡Hola! Bienvenido a la consultora laboral Pochoclo Hnos.")
+
+
+function asesorar(){
+    let check = prompt("¿Querés que te asesore para que consigas un gran trabajo?")
 
 while ((check !== "si") && (check !== "sí")) {
 
@@ -14,3 +18,6 @@ while ((check !== "si") && (check !== "sí")) {
 }
 
 alert("ANOTATE EN CODER!!!")
+}
+
+asesorar()
