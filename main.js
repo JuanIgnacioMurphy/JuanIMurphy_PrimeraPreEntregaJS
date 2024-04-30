@@ -53,7 +53,7 @@ function asesorar() {
             alert("Muy bien! Acertaste!")
             alert("Mi recomendación es...")
             alert("ANOTATE EN CODER!!!!")
-            break
+            identificar = true
         } else {
             alert("Mmm, respuesta incorrecta")
             intentos++
@@ -64,7 +64,7 @@ function asesorar() {
             }
         }
 
-    }while(question==false)
+    }while(question=false)
 
 
 
