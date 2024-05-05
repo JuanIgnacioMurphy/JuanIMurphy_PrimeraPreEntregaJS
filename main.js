@@ -53,10 +53,10 @@ function asesorar() {
             alert("Muy bien! Acertaste!")
             alert("Mi recomendación es...")
             alert("ANOTATE EN CODER!!!!")
-            identificar = true
+            question = true
         } else {
             alert("Mmm, respuesta incorrecta")
-            intentos++
+            intentos ++
             if (intentos > 3) {
                 alert("Lo lamento mucho... no pasaste la prueba")
                 break
